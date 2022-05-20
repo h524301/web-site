@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+  background-color: $color_white;
+
+  @extend %layout_container;
+
+  >section {
+    padding: $padding-size_container;
+  }
+}

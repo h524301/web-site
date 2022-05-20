@@ -1,0 +1,43 @@
+.wrapper {
+  position: relative;
+  margin: auto;
+  max-width: 1200px;
+  width: 80%;
+}
+
+.wrapper__container {
+  padding: 60px 30px;
+  background-color: white;
+}
+
+.wrapper__container>* {
+  margin-bottom: 30px;
+}
+
+.wrapper__container>*:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.wrapper__title {
+  font-weight: 500;
+}
+
+.wrapper__title h2 {
+  color: #4B50AA;
+  font-size: 30px;
+}
+
+.wrapper__title h3 {
+  color: #9599E2;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 566px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .wrapper__container {
+    padding: 40px 15px;
+  }
+}

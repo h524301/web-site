@@ -1,0 +1,9 @@
+%layout_container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 80%;
+
+  @include phone-width() {
+    width: 90%;
+  }
+}
